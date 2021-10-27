@@ -1,0 +1,32 @@
+body {
+    padding:20px; margin:0;
+    box-sizing:border-box;
+    width:100%; min-height:100vh;
+    display:flex; align-items:flex-start; justify-content:center;
+}
+
+body * {
+    margin:auto;
+}
+
+#autostretch_field {
+    width:500px; height:200px; resize:none;
+    box-sizing:border-box; padding:5px;
+    font-size:14px; font-family:sans-serif;
+    line-height:16px;
+    overflow:hidden;
+    transition:height 0.3s;
+}
+
+#autostretch_field_clone {
+    width:500px; box-sizing:border-box; padding:5px;
+    font-size:14px; border:1px solid black;
+    font-family:sans-serif; line-height:16px;
+    
+    opacity:0.25;
+    
+/*    Pour rendre le clone invisible, rétablir les deux propriétés ci-dessous */
+    
+   position:fixed; left:-1000%;
+    
+}

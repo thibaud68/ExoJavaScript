@@ -1,0 +1,31 @@
+body {
+    margin:0; padding:0;
+}
+
+#menu {
+    position:absolute; bottom:0; left:0; width:100%; height:100px; background-color:black;
+    display:flex; align-items:center;
+}
+
+#menu.sticky {
+    position:fixed; top:0; bottom:auto;
+}
+
+#menu a {
+    color:white;
+    width:100%; text-align:center;
+    text-decoration:none; font-size:24px;
+}
+
+#ecran_intro {
+    height:100vh;
+    background-color:grey;
+    display:flex; align-items:center; justify-content:center;
+    font-size:40px; color:white;
+}
+
+#contenus {
+    margin-top:100px; margin-bottom:100px;
+    max-width:500px; margin-left:auto; margin-right:auto;
+    font-size:20px; text-align:justify;
+}
